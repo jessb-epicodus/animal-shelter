@@ -1,0 +1,30 @@
+* comment  column, p style1, p style2 *
+
+body{
+  background-color: #ceff7f; 
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+h1{
+  font-weight: bolder;
+}
+
+.column{
+  column-width: 30%;
+  float: left;
+  padding: 1em;
+}
+
+p{
+  font-size: small;
+}
+
+.style1{
+font-size: medium;
+}
+
+.style2{
+font-size: large;
+}
+
