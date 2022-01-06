@@ -4,14 +4,17 @@ body{
   color: black;
 }
 
-h1{
-  font-weight: bolder;
-}
 
 .column{
+  display: inline-block;
   column-width: 30%;
   float: left;
   padding: 1em;
+}
+
+img{
+  border-radius: 5em;
+  display: table-column;
 }
 
 p{
@@ -27,11 +30,12 @@ p{
 }
 
 .box{
+  display: inline-block;
   width: 50%;
+  height: auto;
   padding: 12px;
+  margin: auto;
   border: solid;
   border-color: blue;
-  margin: auto;
   text-align: center;
-  box-sizing: border-box;
 }
